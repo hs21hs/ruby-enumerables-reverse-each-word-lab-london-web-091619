@@ -1,3 +1,3 @@
 def reverse_each_word(sr)
-  sr.split
-  
+  ar=sr.split
+  ar.each 
