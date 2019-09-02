@@ -1,6 +1,6 @@
 def reverse_each_word(sr)
   ar=sr.split
-  x=ar.map do |g|
+  x=ar.collect do |g|
      g.reverse
    
   end
