@@ -1,7 +1,7 @@
 def reverse_each_word(sr)
   ar=sr.split
   x=ar.map do |g|
-     g.reverse
+     g.collect
    
   end
   puts x
